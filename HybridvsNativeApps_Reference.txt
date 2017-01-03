@@ -1,0 +1,36 @@
+Hybrid
+
+Pros:
+
+Simplifies business logic into a single code base.
+Deploys to multiple platforms with minimal special cases.
+Eliminates need to interface directly with device drivers by using APIs and plugins.
+Single framework, meaning you don’t have to use multiple IDEs with expert knowledge.
+
+Cons:
+
+Not all native features will be available for use.
+Tapping into new features will not be immediate, and sometimes non-existent depending on the maintainer of the framework.  Also there’s a good chance they will be buggy.
+May not provide true native experience considering the user interaction is typically homogenous across all platforms.
+Lacking knowledge in the native frameworks will prevent you from debugging undocumented issues.
+
+
+Native
+
+Pros:
+
+All vendor tools will be available to you (provided they are documented).
+More performant than alternatives that compile into native or interfaces with web views.
+Grants you access to device-specific assets which will stay consistent with the device’s visual standards.
+Greater chance your app will not get rejected due to poor user experience.
+
+Cons:
+
+More costly due to high maintenance of multiple code bases.
+May require more developers with experience in each framework to maintain.
+Very high chance you have to stay on top of vendor changelogs to make sure you app is compatible with the latest version of the device (most common with Apple devices).
+
+Reference Links:
+
+https://www.phase2technology.com/blog/the-benefits-of-native-vs-hybrid-mobile-apps/
+https://www.ymedialabs.com/hybrid-vs-native-mobile-apps-the-answer-is-clear/
